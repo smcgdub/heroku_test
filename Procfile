@@ -1,1 +1,1 @@
-web: gunicorn heroku_test_1.wsgi
+web: cd heroku_test_1 && gunicorn heroku_test_1.wsgi
